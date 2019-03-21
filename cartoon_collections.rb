@@ -31,5 +31,6 @@ def find_the_cheese(cheesy)
     if cheesy.include?(name)
        return name
   end
+  return nil
 end
 end
