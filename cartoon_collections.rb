@@ -27,7 +27,7 @@ def find_the_cheese(cheesy)
   cheese_types = ["cheddar", "gouda", "camembert"]
 # if  cheesy.include?("cheddar")
   # return "cheddar"
-  cheese_types.map do |name|
+  cheese_types.each do |name|
     if cheesy.include?(name)
        return name
   end
